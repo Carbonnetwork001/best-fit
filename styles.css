@@ -6,12 +6,12 @@ ul.menu {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    background-color: beige;
 }
 
 ul.menu li {
     display: inline;
    margin-right: 10px;
+   float: right;
 }
 
 ul.menu li a {
@@ -46,20 +46,21 @@ a {
     padding: 20px;
     border: 1px solid #ccc;
     background-color:beige;
-    margin-top: 100px;
+    margin-top: 150px;
     border-radius: 4px;
+    margin-bottom:100px;
 }
 
 .container label {
    display: block;
 }
 
-input[type="text"],input[type="password"]{
+input[type="text"]{
     width: 100%;
     padding: 10px;
-    margin: 5px 0;
-    border: 1px solid #ccc;
-    
+    font-size: 16px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
 }
 
 input[type="submit"]{
@@ -104,7 +105,7 @@ p {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 section {
-    background-color: #2b2b2b;
+    background-color: grey;
     align-items: center;
     display: block;
 
@@ -178,6 +179,25 @@ h1 {
     margin-top: 10px;
 }
 
+header {
+    }
+
+.veat {
+    background-color: #2b2b2b;
+    margin-top: 10px;
+   }
+
+   video{
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color:beige;
+    margin-top: 50px;
+    border-radius: 4px;
+    margin-bottom:100px;
+    margin-left: 500px;
+   }
  @media(max-width: 768px){
       .homepage-menu {
         height:300px;
