@@ -201,5 +201,9 @@ header {
  @media(max-width: 768px){
       .homepage-menu {
         height:300px;
-      }
+    }
+
+    video {
+      margin-left:250px;
+    }
 }
